@@ -14,7 +14,7 @@ gemspec = Gem::Specification.new do |gem|
   gem.add_development_dependency "rspec", "~>2.4.0"
   gem.add_development_dependency "rspec-rails", "~>2.4.0"
   gem.add_development_dependency "yajl-ruby"
-  gem.add_development_dependency "rails", "~>3.0.0"
+  gem.add_development_dependency "rails", "3.1.0.beta1"
   gem.add_development_dependency "rake"
   gem.add_dependency "riak-client", "~>#{version}"
   gem.add_dependency "rack", ">=1.0"
