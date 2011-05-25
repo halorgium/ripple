@@ -5,6 +5,7 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', '..', 'riak-client','
 require 'rubygems' # Use the gems path only for the spec suite
 require 'ripple'
 require 'rspec'
+require 'tzinfo'
 
 Dir[File.join(File.dirname(__FILE__), "support", "*.rb")].each {|f| require f }
 
