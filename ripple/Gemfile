@@ -2,7 +2,7 @@ source :rubygems
 
 gem 'bundler'
 gem 'riak-client', :path => "../riak-client"
-gem 'activemodel', '3.1.0.beta1'
+gem 'activemodel', '3.1.0.rc1'
 gem 'rspec', '~>2.4.0'
 gem 'tzinfo'
 gem 'rake'
